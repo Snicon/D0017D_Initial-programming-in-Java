@@ -59,6 +59,8 @@ class MarkedAssignment2 {
             System.out.println(INVALID_INPUT_MESSAGE);
         }
 
+        input.close(); // Close scanner object instance as it isn't being used anymore
+
         // Don't allow 0, -1 etc as these are not valid input.
         if (randomCount <= 0) {
             System.out.println(INVALID_INPUT_MESSAGE);
