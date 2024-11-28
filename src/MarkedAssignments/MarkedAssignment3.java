@@ -229,7 +229,7 @@ public class MarkedAssignment3 {
      * @param parts an array of three integers representing the whole part, remainder, and denominator of the fraction.
      */
     public static void printFraction(final int[] parts) {
-        // Denominator us equal to 0, return null
+        // Denominator is equal to 0, return null
         if (parts == null) {
             System.out.println("Error");
         // Both numerator and remainder are 0, fraction is 0
